@@ -20,8 +20,8 @@ resource "aws_iam_user_policy" "lb_ro" {
   policy = jsonencode(var.policy_document)
 }
 
-module "user-arton-modulee" {
-  source  = "app.terraform.io/artonjashari/user-arton-modulee/iam"
+module "terraform-assignment-module" {
+  source  = "app.terraform.io/artonjashari/terraform-assignment-module/iam"
   version = "1.0.2"
   # insert required variables here
 
