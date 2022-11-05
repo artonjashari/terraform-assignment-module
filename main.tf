@@ -21,7 +21,7 @@ resource "aws_iam_user_policy" "lb_ro" {
 }
 
 module "module" {
-  source  = "app.terraform.io/artonjashari/module/iamassignment"
+  source  = "app.terraform.io/artonjashari/module/assignment"
   version = "1.0.2"
   # insert required variables here
 
