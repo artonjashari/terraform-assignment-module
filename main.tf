@@ -25,8 +25,8 @@ module "user-arton-modulee" {
   version = "1.0.2"
   # insert required variables here
 
-  user_name = "arton-user"
-  policy_name = "arton-policy"
+  user_name = "artonnew-user"
+  policy_name = "artonnew-policy"
 
   policy_document = {
     Version = "2012-10-17"
