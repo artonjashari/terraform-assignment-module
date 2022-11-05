@@ -22,7 +22,7 @@ resource "aws_iam_user_policy" "lb_ro" {
 
 module "module" {
   source  = "app.terraform.io/artonjashari/module/assignment"
-  version = "1.0.2"
+  version = "1.0.4"
   # insert required variables here
 
   user_name = "artonnew-user"
